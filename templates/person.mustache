@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <h1>People</h1>
+        <h2>{{my_person.first_name}} {{my_person.second_name}}</h2>
+        {{#my_person}}
+            <ul>
+                <li>name: {{first_name}} {{second_name}}</li>
+                <li>age: {{age}}</li>
+            </ul>
+        {{/my_person}}
+        <a href="/person">Back to list of people</a>
+    </body>
+</html>
